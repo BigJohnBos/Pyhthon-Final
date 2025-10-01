@@ -1,3 +1,4 @@
+
 # JD, AK, BB, JL 7th 
 
 
@@ -14,8 +15,8 @@ game = "running"
 def Right():
     global game
     print("you went right!")
-    print(f"{name}, as you were walking the skety path you stumble into a portal and teleport to the midieval times!")
-    print("you see Ms. LaRosa milking a cow")
+    print(f"{name}, as you were walking the sketchy path you stumble into a portal and teleport to the midieval times!")
+    print("you see Ms. LaRose milking a cow")
     print("left = you help her milk it")
     print("right = you push the cow over")
     print("middle = you go back and jump back into the portal")
@@ -62,17 +63,16 @@ def Thief():
         # Conditionals
         
         while True:
-            Elements = input("Water, Earth, Fire, Air, or choose Invintory").capitalize().strip()
+            Elements = input("Water, Earth, Fire, Air, or choose Inventory").capitalize().strip()
             
             if Elements == "Water":
                 print("Good choice, the element of change... But not enough. Suddenly, the white room starts to fill with water until you drown, and when you wake up, you're just water inside a bottle. GAME OVER")
                 game = "dead"
                 break
 
-            elif Elements == "Invintory":
+            elif Elements == "Inventory":
                 for invintory in invintorys:
                     print(invintory)
-                print( "You realize you cant do anything with the hammer")
             elif Elements == "Earth":
                 print("Mmm, basic, just because you're firm doesn't mean you're strong. GAME OVER")
                 game = "dead"
@@ -204,16 +204,16 @@ def Left():
     
     
 # Boston
-print("The crazy adventures of Ms. LaRosa")
+print("The crazy adventures of Ms. LaRose")
 name = input("What is your name:\n")
-print(f"Welcome {name} to The crazy adventures of Ms. LaRosa!")
+print(f"Welcome {name} to The crazy adventures of Ms. LaRose!")
 invintorys = ["ruler", "laptop", "pocket knife"]
 while game == "running":
     
-    print("in your invintory you have:")
+    print("in your inventory you have:")
     for invintory in invintorys:
         print(invintory)
-    print("School just got out and you are wandering what you are going to do.")
+    print("School just got out and you are wondering what you are going to do.")
     print("You come to a crossroad and you can go Forward, Left, or Right")
     print("Forward is go to walmart,")
     print("Left is you go to your friend's house,")
@@ -235,4 +235,4 @@ while game == "running":
             print("Enter a valid answer ")
 
 
-#invintorys.append(screwdriver)
+#invintorys.append(screwdriver) 
